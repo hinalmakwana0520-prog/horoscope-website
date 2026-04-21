@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>🌌 Horoscope Elements</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      color: white;
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px #00000050;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    .button {
+      display: block;
+      width: 250px;
+      margin: 15px auto;
+      padding: 15px;
+      font-size: 1.5em;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+    .fire { background: #ff512f; box-shadow: 0 0 15px #ff512f50; }
+    .earth { background: #228B22; box-shadow: 0 0 15px #228B2250; }
+    .air { background: #00BFFF; box-shadow: 0 0 15px #00BFFF50; }
+    .water { background: #4B0082; box-shadow: 0 0 15px #4B008250; }
+
+    .button:hover {
+      transform: scale(1.1);
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🌌 Horoscope Elements 🌟</h1>
+
+    <a href="fire signs.html" class="button fire">🔥 Fire Signs</a>
+    <a href="earth signs.html" class="button earth">🌍 Earth Signs</a>
+    <a href="air signs.html" class="button air">🌬 Air Signs</a>
+    <a href="water signs.html" class="button water">💧 Water Signs</a>
+  </div>
+</body>
+</html>
+
