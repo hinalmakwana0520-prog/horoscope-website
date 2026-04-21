@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+.element-buttons a, .back {
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    width: 200px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.fire-bg { background: linear-gradient(to right, #ff5733, #ff4500); }
+.earth-bg { background: linear-gradient(to right, #6a994e, #2d6a4f); }
+.air-bg { background: linear-gradient(to right, #00a8e8, #005f73); }
+.water-bg { background: linear-gradient(to right, #3a0ca3, #4361ee); }
+.fire { background: #ff4500; }
+.earth { background: #228B22; }
+.air { background: #1E90FF; }
+.water { background: #0000CD; }
+.back { background: black; }
